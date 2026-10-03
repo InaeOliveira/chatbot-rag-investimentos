@@ -2,7 +2,7 @@
 
 Agente de IA conversacional para o dominio financeiro: combina RAG, busca por similaridade (FAISS) e um filtro de escopo para respostas confiaveis e dentro do contexto certo.
 
-## O que e
+## O que é
 
 Um chatbot que responde perguntas sobre investimentos usando apenas uma base de 20 documentos proprios (RAG - Retrieval-Augmented Generation), em vez de depender so do conhecimento geral do modelo. Isso reduz alucinacao e mantem as respostas ancoradas em conteudo verificavel.
 
