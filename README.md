@@ -50,35 +50,27 @@ flowchart TD
 ## Como rodar
 
 1. Clone o repositorio e crie um ambiente virtual:
-
-```
 python -m venv venv
 venv\Scripts\Activate
-```
 
 2. Instale as dependencias:
 
-```
 python -m pip install -r requirements.txt
-```
+
 
 3. Crie um arquivo `.env` na raiz do projeto com sua chave gratuita do Google AI Studio:
 
-```
 GOOGLE_API_KEY=sua_chave_aqui
-```
+
 
 4. Gere o indice de busca (so precisa rodar uma vez):
 
-```
 python indexar.py
-```
+
 
 5. Rode o chatbot:
 
-```
 python chatbot.py
-```
 
 ## Exemplos de uso
 
